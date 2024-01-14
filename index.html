@@ -6,12 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hitungan Luas Persegi</title>
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
     <header>
-        
+        <h1>Kalkulator Matematika</h1>
     </header>
+    <main>
+        <div class="container">
+            <div class="main-text">
+                <h1>Welcome</h1>
+                <h2>Page ini berfungsi untuk menghitung luas keliling sebuah persegi</h2>
+            </div>
+            <div class="main-picture">
+                <img src="/assets/persegi.jpg">
+            </div>
+            <form class="calc-form">
+                <label for="luasPersegiInput">Hitung Luas Persegi</label>
+                <div class="calc-input">
+                    <input type="number" id="luasPersegiInput" required />
+                </div>
+                <div class="form-button">
+                    <button class="sub" type="submit">Hitung</button>
+                    <button class="res" type="reset" id="resetLuas">Reset</button>
+                </div>
+            </form>
+            <div class="calc-result">
+
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h4>This page made by Jesen ( <div class="git"><i class="fa fa-github" href="https://github.com/brokenedtzjs"></i></div>brokenedtzjs).</h4>
+        <h4>And This Page is under MIT LICENSE.</h4>
+        <h4>© 2019 - 2024 brokenedtzjs. All Rights Reserved.</h4>
+    </footer>
+    <script rel="javascript" src="/js/script.js" />
 </body>
-<script rel="javascript" src="/js/script.js" />
+
 </html>
