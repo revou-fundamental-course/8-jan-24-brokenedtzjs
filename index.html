@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kalkulator Matematik</title>
+    <title>Kalma - Kalkulator Matematik</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" type="image/webp" href="assets/revo.png.webp">
@@ -24,28 +24,28 @@
                     </div>
                     <div class="main-calc">
                         <div class="main-box">
-                            <label for="luas-persegi-inputt">Hitung Luas Persegi</label>
+                            <label for="AreaInput">Hitung Luas Persegi</label>
                             <div class="main-picture">
                                 <img src="assets/persegi.jpg" alt="luas persegi">
                             </div>
-                            <form class="calc-form">
-                                <input type="number" id="luas-persegi-input" required />
+                            <form id="calc-formArea">
+                                <input type="number" id="AreaInput" required />
                                 <button type="submit">Hitung</button>
-                                <button type="reset" id="reset-luas">Reset</button>
+                                <button type="reset" id="calc-resetArea">Reset</button>
                             </form>
-                            <div class="calc-result">Hasil</div>
+                            <div id="calc-resultArea"></div>
                         </div>
                         <div class="main-box">
-                            <label for="luas-persegi-inputt">Hitung Keliling Persegi</label>
+                            <label for="PerimeterInput">Hitung Keliling Persegi</label>
                             <div class="main-picture">
-                                <img src="assets/persegi.jpg" alt="luas persegi">
+                                <img src="assets/persegi.jpg" alt="keliling persegi">
                             </div>
-                            <form class="calc-form">
-                                <input type="number" id="luas-persegi-input" required />
+                            <form id="calc-formPerimeter">
+                                <input type="number" id="PerimeterInput" required />
                                 <button type="submit">Hitung</button>
-                                <button type="reset" id="reset-luas">Reset</button>
+                                <button type="reset" id="calc-resetPerimeter">Reset</button>
                             </form>
-                            <div class="calc-result">Hasil</div>
+                            <div id="calc-resultPerimeter"></div>
                         </div>
                     </div>
                 </div>

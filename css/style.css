@@ -71,6 +71,10 @@ footer h4 a:hover {
     transition: 0.2s;
 }
 
+form {
+    padding: 30px;
+}
+
 .container {
     text-align: center;
 }
@@ -108,8 +112,4 @@ footer h4 a:hover {
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
-
-.calc-form {
-    padding: 30px;
 }
